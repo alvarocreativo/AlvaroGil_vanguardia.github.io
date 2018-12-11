@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matineé Dadá</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<style type="text/css">
+*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+
+		.container{
+			width:1280px;
+			margin:auto;
+		}	
+
+	@media screen and (max-width:600px){
+	body{
+  		overflow-y: hidden;
+		}
+}
+
+body{
+	overflow-x: hidden;
+}
+
+h1{
+	font-family: 'Black Han Sans', sans-serif;
+	font-size:90px;
+	float: left;
+	text-align:center;
+
+}
+
+h2{
+	font-family:"georgia", serif;
+	font-size:30px;
+	text-decoration:underline;
+	height: 30px;
+}
+
+p{
+	font-family:"georgia", serif;
+	font-size:20px;
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+footer{
+	position: absolute;
+	bottom: -50px;
+	width: 100%;
+}
+
+.pequenotexto{
+	font-size:15px;
+	height: 200px;
+	width: 100%;
+}
+
+.texto-cuadro{
+	border-style:dotted dashed solid double;
+	width:auto;
+	height: 200px;
+}
+
+.aletra{
+	transform:skewY(20deg);
+	animation:deformarY 2s infinite;
+	animation-duration:5s;
+}
+
+.dletra{
+	transform:skewX(30deg);
+	animation:deformarX 3s infinite;
+	animation-duration:5s;
+}
+
+.maletra{
+	transform:rotate(-40deg);
+	animation:rotacio 2s infinite;
+	animation-duration:5s;
+}
+
+.dlarga{
+	transform:rotate(90deg);
+	transform:perspective(5deg);
+}
+
+.lletres{
+	position: absolute;
+	top: 250px;
+	right: -20px;
+}
+
+.caixa2{
+	width:100%;
+}
+
+.lletrasvg{
+	width:200px;
+	height:50px;
+	position-left:5px;
+	transform: rotate(90deg);
+}
+
+@keyframes deformarY{
+			from{transform:skewY(0deg);
+		}
+			to{transform:skewY(20deg);
+			}
+		}
+
+@keyframes deformarX{
+	from{transform:skewX(0deg);
+	}
+	to{transform:skewX(-40deg);
+	}
+}
+
+
+@keyframes rotacio{
+	from{transform:rotate(0deg);
+	}
+	to{transform:rotate(-40deg);
+	}
+}
+
+</style>
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<h2><div class="col-7 caixa2">Int. Cont. Tehater DE HAAN Paper 5a Den Haag Tel 5393</div></h2>
+	</div>
+	<!--FILA1-->
+	<div class="row">
+		<img class="push-1 col-1" src="img/mano-dedo.jpg">
+		<h1 class="col-1 aletra">A</h1>
+		<h1 class="col-1 maletra">MA</h1>
+		<h1 class="col-1">TI</h1>
+		<h1 class="col-1">X</h1>
+	</div>
+	<!--FILA2-->
+	<div class="row">
+	<div  class="col-3">
+		<h1 class="col-2 dletra">d</h1>
+		<h1 class="col-2 aletra">A</h1>
+		<h1 class="col-2 dletra">d</h1>
+		<div class="row"></div>
+		<div class="col-2">
+			<p class="pequenotexto"><b>Que fait DADA?</b><br>50 tranca de récompense á <br>celui que trouve la mayoren de <br>nous expliquer DADA.</p></div>
+		<h2><div class="push-1 col-2 texto-cuadro">KURT <br>SCHWITTERS <br>PETRO VAN <br>DOESBURG</div></h2>
+	</div>
+	<div  class="col-2">
+		<h2><div class="col-7 texto-cuadro">DILIGENTIA<br>ZONDAG 28<br>JUANUARI des<br>namiddags</div></h2>
+		<div class="row">
+		<div class="col-7 pequenotexto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</div>
+		</div>
+	</div>
+	</div>
+	<div  class="col-2 lletres">
+		<h1 class="nee">NEE</h1>
+		<div class="row"></div>
+		<div class="lletrasvg"><svg version="1.2" baseProfile="tiny" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 83.4 100"
+	 xml:space="preserve"><g>
+	<path d="M13.3,12.9h30.8c23.5,0,28.4,20,28.4,33.2c0,15-5.9,36.5-29,36.5H13.3V12.9z M27.6,70.6h14.2c11.9,0,15.8-12,15.8-23.4
+		c0-20.6-9.8-22.3-16-22.3h-14V70.6z"/>
+</g>
+</svg>
+</div>
+
+	</div>
+	</div>
+	<!--<h1><div class="col-1 pull-4 d">d</div>
+		<div class="push-1 col-1 pull-5">A</div>
+		<div class="push-2 col-1 pull-4 d">d</div>
+		<div class="push-3 col-2 pull-2"></div>
+		<div class="push-5 col-1 pull-1">NEE</div></h1>
+		<div class="push-6 col-1"><svg width="400" height="110">
+  <rect width="100" height="100" style="fill:rgb(0,0,0);stroke-width:0;stroke:rgb(0,0,0)" />
+</svg></div>
+<div class="row"></div>
+	<!--FILA3-->
+	<!--<h1><div class="push-5 col-2">D</div></h1>
+	<p class="pequeñotexto"><b>Que fait DADA?</b><br>50 tranca de récompense á <br>celui que trouve la mayoren de <br>nous expliquer DADA.</p>
+	<div class="row"></div>
+
+	<h1><div class="push-6 col-1">A</div></h1>
+	<div class="row"></div>
+	
+	<h1><div class="push-6 col-1">DA</div></h1>
+	<div class="row"></div>
+</div> -->
+<div>
+<footer class="row">
+	<h2 class="push-1 col-5 pull-1"><a href="https://es.wikipedia.org/wiki/Dada%C3%ADsmo#/media/File:Theo_van_Doesburg_Dadamatin%C3%A9e.jpg">Veure ací l'original de la revista MATINEE DADÁ </a></h2>
+</footer>
+</div>
+</div>
+</body>
+</html>
